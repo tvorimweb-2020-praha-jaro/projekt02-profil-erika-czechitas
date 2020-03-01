@@ -15,5 +15,90 @@ html { box-sizing: border-box; }
 
 
 body {
-    background-color: #bdc3c7;
+  background-color: #bdc3c7;
+  font-family: 'Montserrat', sans-serif;
+  color: #bdc3c7;
+  margin: 20px;
+  width: 250px;
 }
+
+.profil {
+  background-color: #31363b;
+  box-shadow: 5px 5px 18px #31363b;
+}
+
+.obsah {
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  color: white;
+}
+
+.hlavicka {
+  position: relative;
+}
+
+.foto {
+  width: 100%
+}
+
+.logo {
+  background-color: #b92e81;
+  border-radius: 50%;
+  position: absolute;
+  right: 20px;
+  bottom: -20px;
+  box-shadow: 1px 1px 10px black;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0%;
+  margin: 0%;
+}
+
+ul li {
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+}
+
+ul li.portfolio {
+  width: 100%;
+  border-top: 1px solid #bdc3c7;
+  border-bottom: 1px solid #bdc3c7;
+}
+
+ul li.facebook {
+  border-right: 1px solid #bdc3c7;
+}
+
+ul li a {
+  padding: 20px;
+  display: block;
+  width: 100%;
+  color: #bdc3c7;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+ul li:hover a {
+  color: white;
+}
+
+ul li.portfolio:hover {
+  background-color: #e74c3c;
+}
+
+ul li.facebook:hover {
+  background-color: #3b5998;
+}
+
+ul li.twitter:hover {
+  background-color: #1da1f2;
+}
+
+
